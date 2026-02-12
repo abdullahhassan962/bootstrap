@@ -33,16 +33,10 @@
     rel="stylesheet">
 </head>
 
-<body>
-<style>
-  *{
-  
-  
-    
-  }
-</style>
-<div class="container-fluid overflow-hidden">
-  <div class=" row justify-content-between align-items-center ">
+<body style="margin: 0; padding: 0; overflow-x: hidden;">
+
+<div class="container-fluid px-0"> 
+  <div class="row justify-content-between align-items-center mx-0">
 
     <div class="col-lg-6 m-0 p-0">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
@@ -50,22 +44,18 @@
       </a>
     </div>
 
-
-    <div class="pe-0 col-lg-4 ms-md-auto d-flex flex-column align-items-center ">
-      <p class="  overflow-y: hidden; fw-bold mb-0 text-danger lh-1" style="font-size: 1.3rem; letter-spacing: 0.18em;">CALL OUR OFFICES
-        NOW!</p>
-      <h1 class="fw-bold mb-0 lh-1" style="color: #333; font-size: 3.3rem; letter-spacing: -0.02em;">540.433.6906
-      </h1>
-      <p class="fw-bold text-muted mb-0 lh-1" style="font-size: 1.2rem; letter-spacing: 0.08em;">Get Your Questions
-        Answered Fast</p>
+    <div class="pe-0 col-lg-4 ms-md-auto d-flex flex-column align-items-center">
+      <p class="fw-bold mb-0 text-danger lh-1" style="font-size: 1.3rem; letter-spacing: 0.18em;">CALL OUR OFFICES NOW!</p>
+      <h1 class="fw-bold mb-0 lh-1" style="color: #333; font-size: 3.3rem; letter-spacing: -0.02em;">540.433.6906</h1>
+      <p class="fw-bold text-muted mb-0 lh-1" style="font-size: 1.2rem; letter-spacing: 0.08em;">Get Your Questions Answered Fast</p>
     </div>
 
-
   </div>
+</div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
-
-    <button class="navbar-toggler" type="button">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -91,13 +81,14 @@
         </li>
       </ul>
     </div>
+  </div>
+</nav>
 
-  </nav>
   <!--------------------------------------MAIN SECTION  STARTS------------------------------------>
-
-  <div class="row align-items-start mb-5">
+<div class="container-fluid">
+  <div class="row align-items-start mb-5 mx-0">
     <!-- Left Column: Banner -->
-    <div class="col-lg-6 mb-4 ms-md-5 mb-lg-0">
+    <div class="col-lg-6  mb-4 ms-lg-5 md-5 mb-lg-0 ">
       <img src="gurantee_banner.gif" class="img-fluid w-100" alt="Guarantee Banner">
     </div>
 
@@ -105,36 +96,36 @@
     <div class="col-lg-5  ">
       <div class=""
         style=" background-image: url('form_bg.jpg'); background-size: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); img-fluid">
-      <div class="row">
+      <div class="row mx-0">
         <div class=" d-flex">
           <h2 class=" dcol-lg-6 justify-content-between align-items-start mb-3 bg-danger text-white px-2 py-1 fs-2 fw-bold mb-0">QUESTIONS?</h2>
           <div class=" col-lg-6">
-            <p class=" text-end lh-1 mb-0 fs-5 me-5 fw-bold text-end">Have a <span class="fs-3 fw-bold  text-primary">Question</span><br>About Your
+            <p class=" text-end lh-1 mb-0 fs-5 me-5 fw-bold text-end">Have a <span class="fs-4 fw-bold  text-primary">Question</span><br>About Your
               Case?</p>
           </div>
         </div>
         </div>
-        <p class="mb-3 lh-sm ms-4">Enter your information and get your questions answered quickly and discreetly or call us
+        <p class="mb-3 lh-sm ms-6">Enter your information and get your questions answered quickly and discreetly or call us
           at: <span class="fw-bold fs-5">540.433.6906</span></p>
 
         <form class="ms-4">
         <div class="d-flex">
            <div class="col-7">
-           <div class="mb-1  gap-3 row align-items-center">
+           <div class="mb-1  gap-3 row align-items-center mx-0">
             <label for="name" class="col-2 col-form-label fw-bold  pe-2">NAME:</label>
             <div class="col-9 ">
               <input type="text" class="form-control form-control-sm rounded-0 border-0" id="name"
                 style="background: white;">
             </div>
           </div>
-          <div class="mb-1 row  gap-3 align-items-center">
-            <label for="email" class="col-2 col-form-label fw-bold  pe-2">EMAIL:</label>
+          <div class="mb-1 row  gap-3 align-items-center mx-0">
+            <label for="email" class="  col-2 col-form-label fw-bold  pe-2">EMAIL:</label>
             <div class="col-9 ">
-              <input type="email" class="form-control form-control-sm rounded-0 border-0" id="email"
-                style="background: white;">
+              <input type="email" class="form-control form-control-sm rounded-0 border-0" 
+                style="background: white; ;">
             </div>
           </div>
-          <div class="mb-1 row gap-3 align-items-center">
+          <div class="mb-1 row gap-3 align-items-center mx-0">
             <label for="phone" class="col-2 col-form-label fw-bold  pe-2">PHONE:</label>
             <div class="col-9 ">
               <input type="text" class="form-control form-control-sm rounded-0 border-0" id="phone"
@@ -149,10 +140,10 @@
               </div>
         </div>
           
-            <div class="row">
+            <div class="row mx-0">
               <div class="col-11">
                 <textarea class="form-control form-control-sm  rounded-0 border-0" rows="3" placeholder="Tell us about your case here..."
-                  style="background: white;"></textarea>
+                  style="background: white; height: 20px;"></textarea>
               </div>
               
             </div>
@@ -160,7 +151,7 @@
 
           <div class="d-flex justify-content-between align-items-center">
             <small class="fst-italic fw-bold text-muted ">100% Privacy Guaranteed</small>
-            <button type="submit" class="btn btn-danger fw-bold rounded-0 me-5 my-4 shadow-sm">Ask Us About Your Case <img
+            <button type="submit" class="btn btn-danger fw-bold rounded-0 me-5 my-4 shadow-sm" style="height: 50px; font-size: 10px;">Ask Us About Your Case <img
                 src="bullet_white_lrg.png" class="m-1" alt=""></button>
           </div>
         </form>
@@ -169,7 +160,7 @@
   </div>
 
  
-    <div class="row d-flex flex-wrap g-4 mb-5  container-fluid justify-content-evenly">
+    <div class="row d-flex flex-wrap g-4 mb-5 mx-0 justify-content-evenly">
       <!-- DUI Section -->
       <div class="col-lg-3 col-sm-5">
         <h3 class="fw-bold fs-4">CHARGED WITH <span class="text-danger">DUI?</span></h3>
@@ -190,7 +181,7 @@
 
       <!-- Blog and Results Section -->
       <div class="col-lg-5 col-sm-5 border-end px-4 border-start border-end">
-        <div class="row mb-4 align-items-center justify-content-evenly gap-4 border-bottom pb-3">
+        <div class="row mb-4 align-items-center justify-content-evenly gap-4 border-bottom pb-3 mx-0">
           <div class="col-5">
             <h3 class="fw-bold fs-3">LAW <span class="text-danger">BLOG</span></h3>
             <p class="small mb-2 fs-6">Learn more about Virginia Traffic Laws.</p>
@@ -205,7 +196,7 @@
          
               </div>  
         
-        <div class="row align-items-start gap-3 justify-content-evenly">
+        <div class="row align-items-start gap-3 justify-content-evenly mx-0">
           <div class="col-5">
             <h3 class="fw-bold fs-4">CASE <span class="text-danger">RESULTS</span></h3>
             <p class="small mb-2 fs-8">See how we help our clients.<br>Read our latest case results.</p>
@@ -226,7 +217,7 @@
       <div class="col-lg-3 col-sm-6 text-center text-lg-start align-items-md-center ">
         <div class="d-flex align-items-center justify-content-evenly mb-3">
           <img src="qqq.gif"  alt="" width="50%">
-          <img src="national_college_small.gif"  width="47%" alt="">
+          <img src="national_college_small.gif"  width="40%" alt="">
         </div>
         <h3 class="fw-bold fs-3">CERTIFICATES & <span class="text-danger">CREDENTIALS</span></h3>
         <p class="small mb-3 fs-6">Keefer Law Firm has protected the rights of Virginians for over 30 years.</p>
@@ -239,13 +230,12 @@
 
   
 
-    <div class="row mt-5">
+    <div class="row mt-5 mx-0">
       
         <img src="lf_bt_hr_shadow.png" class="w-100" height="020vh" alt="Shadow Line">
       
     </div>
-  
-
+  </div>
 
 
 
@@ -256,7 +246,7 @@
 
   <footer class="py-5 ms-5">
 
-      <div class="row g-5">
+      <div class="row g-5 mx-0">
         <!-- Practice Areas -->
         <div class="col-lg-3 col-sm-5">
           <h3 class="fw-bold fs-3 text-red mb-4 border-bottom pb-2">PRACTICE <span class="text-danger">AREAS</span></h3>
@@ -308,8 +298,8 @@
         </div>
 
         <!-- Sidebar Right -->
-        <div class="row col-lg-3 d-flex flex-lg-column ms-5">
-          <div class="row">
+        <div class="row col-lg-3 d-flex flex-lg-column ms-5 mx-0">
+          <div class="row mx-0">
             <div class="mb-4  pt-3 col-lg-12 col-md-4 col-sm-6">
             <h4 class="fw-bold fs-3">CLIENT <span class="text-danger">TESTIMONIALS</span></h4>
             <p class="small mb-2 fs-5">Read what others say about Keefer Law Firm.</p>
@@ -338,8 +328,8 @@
           </div>
 
           <div class="text-center mb-4 w-100 d-flex flex-lg-column align-items-center gap-3 col-lg-12 ">
-            <img src="avo_rating_large.gif" class="img-fluid w-50" alt="AVO Rating">
-            <img src="national_college_large.gif" class="img-fluid w-50" alt="National College">
+            <img src="avo_rating_large.gif" class=" w-50 lg-50" alt="AVO Rating">
+            <img src="national_college_large.gif" class=" w-25 w-lg-50 " alt="National College">
           </div>
 
           <div class="text-center">
@@ -355,7 +345,7 @@
           </div>
         </div>
       </div>
-</div>
+
   </footer>
 
 
