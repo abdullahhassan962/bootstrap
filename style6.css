@@ -4,3 +4,30 @@
     margin-left: 22%;
 }
 }
+@media(min-width : 340px) and (max-width : 575px){
+#buttons{
+   margin-left: -17px;
+    width: 90%;
+}
+}
+@media(min-width : 340px) and (max-width : 575px){
+#imgs{
+width: 87%;
+}
+}
+@media(min-width : 340px) and (max-width : 575px){
+#footer{
+margin-left: -37px;
+width: 93%;
+}
+}
+@media(min-width : 340px) and (max-width : 575px){
+#client{
+    margin-left: -49px;
+}
+}
+@media(min-width : 340px) and (max-width : 575px){
+#last{
+    margin-left: 25px;
+}
+}
